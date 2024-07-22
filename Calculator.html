@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <center>
+    <h1 class="heading">CALCULATOR</h1>
+    <div id="cal">
+      <input type="text" id="res" readonly>
+      <br>
+      <div id="button_con">
+        <button class="three" onclick="clearDisplay()">AC</button>
+        <button class="three" onclick="deleteLast()">DEL</button>
+        <button class="three" onclick="addToDisplay('%')">%</button>
+        <button class="two" onclick="addToDisplay('/')">/</button>
+        <button class="one" onclick="addToDisplay('7')">7</button>
+        <button class="one" onclick="addToDisplay('8')">8</button>
+        <button class="one" onclick="addToDisplay('9')">9</button>
+        <button class="two" onclick="addToDisplay('*')">X</button>
+        <button class="one" onclick="addToDisplay('4')">4</button>
+        <button class="one" onclick="addToDisplay('5')">5</button>
+        <button class="one" onclick="addToDisplay('6')">6</button>
+        <button class="two" onclick="addToDisplay('-')">-</button>
+        <button class="one" onclick="addToDisplay('1')">1</button>
+        <button class="one" onclick="addToDisplay('2')">2</button>
+        <button class="one" onclick="addToDisplay('3')">3</button>
+        <button class="two" onclick="addToDisplay('+')">+</button>
+        <button class="one" onclick="addToDisplay('0')">0</button>
+        <button class="one" onclick="addToDisplay('00')">00</button>
+        <button class="one" onclick="addToDisplay('.')">●</button>
+        <button class="two" onclick="calculate()">=</button>
+      </div> 
+    </div>
+  </center>
+  <script src="calculator.js"></script>
+</body>
+</html>

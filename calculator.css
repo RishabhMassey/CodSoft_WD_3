@@ -1,0 +1,63 @@
+
+body{
+  background: url(img2.jpg)
+}
+
+.heading{
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  font-family: 'Gill Sans';
+}
+
+#cal{
+  background: #3b3b3b;
+  border-radius: 10px; 
+  border: 2px solid black;
+  height: 480px;
+  width: 300px;
+  padding: 20px;
+}
+#res{
+  background: #f0eeee;
+  border-color: grey;
+  border-radius: 10px;
+  font-size: 40px;
+  width: 250px;
+  height: 100px;
+}
+#button_con{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.three{
+  font-weight: bold;
+  background: rgb(199, 199, 199);;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.one{
+  font-weight: bold;
+  background: grey;;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.two{
+  font-weight: bold;
+  background: rgb(231, 179, 8);;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+}
